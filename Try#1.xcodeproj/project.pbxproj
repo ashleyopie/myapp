@@ -19,6 +19,10 @@
 		B591A4FC18A1BB3F00C46F41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B591A4E418A1BB3F00C46F41 /* UIKit.framework */; };
 		B591A50418A1BB3F00C46F41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B591A50218A1BB3F00C46F41 /* InfoPlist.strings */; };
 		B591A50618A1BB3F00C46F41 /* Try_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B591A50518A1BB3F00C46F41 /* Try_1Tests.m */; };
+		B591A51218A1BD9900C46F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B591A51118A1BD9900C46F41 /* Main.storyboard */; };
+		B591A51A18A2BD5900C46F41 /* AddCollegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B591A51918A2BD5900C46F41 /* AddCollegeViewController.m */; };
+		B591A51D18A2BEBC00C46F41 /* CollegeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B591A51C18A2BEBC00C46F41 /* CollegeListViewController.m */; };
+		B591A52018A2CEA600C46F41 /* College.m in Sources */ = {isa = PBXBuildFile; fileRef = B591A51F18A2CEA600C46F41 /* College.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		B591A50118A1BB3F00C46F41 /* Try#1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Try#1Tests-Info.plist"; sourceTree = "<group>"; };
 		B591A50318A1BB3F00C46F41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B591A50518A1BB3F00C46F41 /* Try_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_1Tests.m; sourceTree = "<group>"; };
+		B591A51118A1BD9900C46F41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B591A51818A2BD5900C46F41 /* AddCollegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCollegeViewController.h; sourceTree = "<group>"; };
+		B591A51918A2BD5900C46F41 /* AddCollegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCollegeViewController.m; sourceTree = "<group>"; };
+		B591A51B18A2BEBC00C46F41 /* CollegeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeListViewController.h; sourceTree = "<group>"; };
+		B591A51C18A2BEBC00C46F41 /* CollegeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeListViewController.m; sourceTree = "<group>"; };
+		B591A51E18A2CEA600C46F41 /* College.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = College.h; sourceTree = "<group>"; };
+		B591A51F18A2CEA600C46F41 /* College.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = College.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,13 @@
 		B591A4D418A1BB3F00C46F41 = {
 			isa = PBXGroup;
 			children = (
+				B591A51818A2BD5900C46F41 /* AddCollegeViewController.h */,
+				B591A51918A2BD5900C46F41 /* AddCollegeViewController.m */,
+				B591A51118A1BD9900C46F41 /* Main.storyboard */,
+				B591A51E18A2CEA600C46F41 /* College.h */,
+				B591A51F18A2CEA600C46F41 /* College.m */,
+				B591A51B18A2BEBC00C46F41 /* CollegeListViewController.h */,
+				B591A51C18A2BEBC00C46F41 /* CollegeListViewController.m */,
 				B591A4E618A1BB3F00C46F41 /* Try#1 */,
 				B591A4FF18A1BB3F00C46F41 /* Try#1Tests */,
 				B591A4DF18A1BB3F00C46F41 /* Frameworks */,
@@ -219,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B591A51218A1BD9900C46F41 /* Main.storyboard in Resources */,
 				B591A4EB18A1BB3F00C46F41 /* InfoPlist.strings in Resources */,
 				B591A4F318A1BB3F00C46F41 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B591A52018A2CEA600C46F41 /* College.m in Sources */,
+				B591A51D18A2BEBC00C46F41 /* CollegeListViewController.m in Sources */,
+				B591A51A18A2BD5900C46F41 /* AddCollegeViewController.m in Sources */,
 				B591A4F118A1BB3F00C46F41 /* AppDelegate.m in Sources */,
 				B591A4ED18A1BB3F00C46F41 /* main.m in Sources */,
 			);
@@ -359,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Try#1/Try#1-Prefix.pch";
 				INFOPLIST_FILE = "Try#1/Try#1-Info.plist";
@@ -372,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Try#1/Try#1-Prefix.pch";
 				INFOPLIST_FILE = "Try#1/Try#1-Info.plist";
